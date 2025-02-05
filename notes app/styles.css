@@ -1,0 +1,35 @@
+body{
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.head{
+    display:flex;
+    align-items:center;
+    gap:5px;
+}
+
+.mainContainer{
+    border:1px solid black;
+    margin-left: auto;
+    margin-right:auto;
+    width:50%;
+    padding:1rem; 
+}
+.btn{
+    background-color:purple;
+    color:white;
+    height:30px;
+    width:100px;
+    border-radius:7px;
+}
+.notes{
+    margin-top:2rem;
+    display:flex;
+    align-items:center;
+    gap:2rem;
+}
+.notesArea{
+    width:40rem;
+    height:10rem;
+}
